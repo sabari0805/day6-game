@@ -1,0 +1,40 @@
+body{
+    background: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+#main{
+    height: 400px;
+    width: 550px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 3px 3px 4px white;
+    text-align:center;
+    border-radius: 5%;
+
+}
+#n1{
+    border-radius: 20%;
+    height: 25px;
+    width: 200px;
+}
+#rule{
+    text-align: justify;
+    font-size: large;
+    margin-left: 140px;
+}
+#button{
+    background-color: blue rgb(14, 13, 25) violet;
+
+}
+
+button:hover{
+    animation: changebutton 1s 15 ;
+    border-radius: 15%;
+    box-shadow: 3px 3px 4px red;
+
+}
